@@ -1,5 +1,3 @@
-## Xcart is a full react application which we can do several operation.Xcart is using react-redux and redux toolkit.Xcart is more closely to the real cart system. Xcart consist shipping charges options as well as it consist gift wrapper options which makes this cart so interesting to the user
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
