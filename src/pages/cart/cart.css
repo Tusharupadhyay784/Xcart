@@ -1,0 +1,212 @@
+*{
+    font-family: 'Mulish', sans-serif !important;
+/* font-family: 'Roboto', sans-serif; */
+}
+.name {
+    margin: .4em;
+}
+
+.cart_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    height: max-content;
+    margin-top: 1em;
+}
+
+.cart_items {
+    display: flex;
+    /* border: 2px solid blue; */
+    /* height: 40vh; */
+    height: fit-content;
+    width: 70vw;
+    margin: 1em;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+    transition: all .3s;
+    border-bottom-left-radius: .4em;
+    border-bottom-right-radius: .4em;
+    border-top-left-radius: .4em;
+}
+
+.cart_items:hover {
+    background-color: #142d4c;
+    color: white;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    
+}
+
+.cart_items>img {
+    height: 30vh;
+    padding: 2em;
+    width: 12vw;
+    background-size: cover;
+}
+
+.cart_items_info {
+
+    padding: .9em;
+    /* border: 2px solid cyan; */
+    width: 50vw;
+
+}
+
+.cart_items_info>h1 {
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cart_items_info>p {
+    padding: 1em;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .01em;
+}
+
+.cart_items_button {
+    display: inline;
+    /* border: 2px solid black; */
+    padding: .5em;
+}
+
+.cart_items_button>button {
+    border: 2px solid black !important;
+    font-size: 1.2em;
+    outline: none;
+    border: black;
+    width: 3vw;
+    height: 5vh;
+    border-radius: .2em;
+    margin: 1em;
+    transition: all .3s ease-in;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+}
+
+.cart_items_button>button:hover {
+    transform: scale(1.01);
+}
+
+
+
+.cart_items_info>div {
+    /* border: 2px solid black; */
+    text-align: end;
+}
+
+.cart_items_info>div>button {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.fix_amount {
+    position: fixed;
+    top: 11.1em;
+    right: 1em;
+    /* border: 2px solid black; */
+    /* fit-content kardena bad which */
+    height: fit-content;
+    width: fit-content;
+    /* font-weight: 700; */
+    /* background:blueviolet;  */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+
+.fix_amount_items {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+
+}
+
+.but {
+
+    text-align: center;
+}
+
+.but>button {
+    width: 12vw;
+}
+
+#one {
+    display: inline-flex;
+    /* border: 2px solid black; */
+    width: 11vw;
+    justify-content: end;
+}
+
+#two {
+    display: inline-flex;
+    /* border: 2px solid black; */
+    width: 15vw;
+    justify-content: end;
+}
+
+#three {
+    display: inline-flex;
+    /* border: 2px solid black; */
+    width: 14.4vw;
+    justify-content: end;
+}
+
+
+.cart_items_price {
+    /* border: 2px solid black; */
+    width: 10vw;
+    text-align: center;
+
+}
+
+.cart_items_price>h3 {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+/* Empty Cart */
+
+.cart_no_items{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+}
+#firstIMG{
+    text-align: center;
+    margin: 0 auto;
+    animation: mover 1s infinite alternate;
+    filter: drop-shadow(0 10px 0.5rem black);
+    
+}
+@keyframes mover{
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+#secondIMG{
+    height: 27vh;
+    width: 15vw;
+    margin: 0 auto;
+}
+.cart_no_items > h3{
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+

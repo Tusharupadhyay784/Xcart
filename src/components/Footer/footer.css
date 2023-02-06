@@ -1,0 +1,26 @@
+* {
+    font-family: 'Mulish', sans-serif !important;
+
+}
+
+.cart_footer {
+
+    margin: 2em;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    border-radius: .5em;
+    height: 11vh;
+}
+
+.cart_footer>h1 {
+    color: white;
+    text-align: center;
+}
+
+.cart_footer>div {
+    width: 14vw;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 0 auto;
+}
